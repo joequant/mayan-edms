@@ -57,8 +57,8 @@ def find_packages(directory):
 
 install_requires = """
 Django==1.7.10
-Pillow==2.9.0
-PyYAML==3.11
+Pillow>=2.9.0
+PyYAML>=3.11
 celery==3.1.18
 cssmin==0.2.0
 django-activity-stream==0.6.0
